@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Share Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-fluid">
+            <header class="header">
+                <div class="topBar">
+                    <nav class="navbar navbar-light mainTopBar">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/logo.svg" alt="" width="30" height="24"
+                                class="d-inline-block align-text-top img-fluid logoImg">
+                        </a>
+                        <div class=" userActions">
+                            <span class="material-icons me-2 topHeaderIcon topHeaderSearchIcon">search</span>
+                            <span class="material-icons topHeaderIcon topHeaderNotiIcon">notifications</span>
+                        </div>
+                    </nav>
+                </div>
+                <div class="mainNav">
+                    <nav class="navbar navbar-light mainNavBar">
+
+                        <div class="mainNavUl">
+                            <div class="customNav"><a class="active">Stocks</a></div>
+                            <div class="customNav"><a>Mutual Funds</a></div>
+                            <div class="customNav"><a>Fixed Deposits</a></div>
+                            <div class="customNav"><a>Gold</a></div>
+                        </div>
+
+                    </nav>
+                </div>
+            </header>
+            <!-- Card Section begin -->
+            <section class="indicesSection">
+                <section class="mt-4 cardHeadingSection">
+                    <div class="indicesTitle">Market Indices</div>
+                    <div class="indicesBtn"><button>SCREENER</button></div>
+                </section>
+
+                <section class="cardMainSection mt-3">
+                    <div class="row cardMain">
+                        <div class="col-6 customCard">
+                            <div class="cardTitle">
+                                NIFTY
+                            </div>
+                            <div class="cardTitle exchangeText">NSE</div>
+                            <div class="stockPriceSection">
+                                <div class="currentStockPrice">16,634.65</div>
+                                <div class="todayIncreament">10.05 (0.06%)</div>
+                            </div>
+                        </div>
+                        <div class="col-6 customCard">
+                            <div class="cardTitle">
+                                NIFTY
+                            </div>
+                            <div class="cardTitle exchangeText">NSE</div>
+                            <div class="stockPriceSection">
+                                <div class="currentStockPrice">16,634.65</div>
+                                <div class="todayIncreament">10.05 (0.06%)</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Card Section end -->
+                <!-- scroller card section begin -->
+
+
+                <section class="indicesSection">
+                    <section class="mt-4 cardHeadingSection">
+                        <div class="indicesTitle">Stocks In News</div>
+                        <div class="indicesBtn"><button>SCREENER</button></div>
+                    </section>
+
+                    <div class="mainNav">
+                        <nav class="navbar navbar-light mainNavBar">
+                            <div class="mainNavUl">
+                                <section class="cardMainSection mt-3">
+                                    <div class="row cardMain">
+                                        <div class="col-6 customCard">
+                                            <div class="cardTitle">
+                                                NIFTY
+                                            </div>
+                                            <div class="cardTitle exchangeText">NSE</div>
+                                            <div class="stockPriceSection">
+                                                <div class="currentStockPrice">16,634.65</div>
+                                                <div class="todayIncreament">10.05 (0.06%)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 customCard">
+                                            <div class="cardTitle">
+                                                NIFTY
+                                            </div>
+                                            <div class="cardTitle exchangeText">NSE</div>
+                                            <div class="stockPriceSection">
+                                                <div class="currentStockPrice">16,634.65</div>
+                                                <div class="todayIncreament">10.05 (0.06%)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 customCard">
+                                            <div class="cardTitle">
+                                                NIFTY
+                                            </div>
+                                            <div class="cardTitle exchangeText">NSE</div>
+                                            <div class="stockPriceSection">
+                                                <div class="currentStockPrice">16,634.65</div>
+                                                <div class="todayIncreament">10.05 (0.06%)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 customCard">
+                                            <div class="cardTitle">
+                                                NIFTY
+                                            </div>
+                                            <div class="cardTitle exchangeText">NSE</div>
+                                            <div class="stockPriceSection">
+                                                <div class="currentStockPrice">16,634.65</div>
+                                                <div class="todayIncreament">10.05 (0.06%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+
+                        </nav>
+                    </div>
+                    <!-- scroller card section end -->
+
+                </section>
+
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+</html>
