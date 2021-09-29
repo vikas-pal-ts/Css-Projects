@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    margin: 0%;
+    background-color: #6592CF;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.childContainer {
+    background-color: #060F55;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 35%;
+    height: 39%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 39px;
+}
+
+.straw {
+    background-color: #060F55;
+    width: 15%;
+    height: 55%;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+}
+
+.straws {
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 52px;
+}
+
+.strawHandle {
+    background-color: #060F55;
+    width: 18px;
+    height: 44%;
+    position: absolute;
+    z-index: -1;
+    top: 114px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="straws">
+            <div class="straw"></div>
+            <div class="straw"></div>
+            <div class="straw"></div>
+            <div class="straw"></div>
+        </div>
+        <div class="childContainer">
+            <div class="strawHandle"></div>
+        </div>
+       
+    </div>
+    
+</body>
+</html>

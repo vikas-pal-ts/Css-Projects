@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="bottomBox"></div>
+        <div class="topBox"></div>
+        <div class="bottomBox"></div>
+    </section>
+
+    <style>
+        body {
+            background: #62306D;
+            display: block;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 50px;
+        }
+
+        .topBox {
+            background: #F7EC7D;
+            height: 100px;
+            width: 110px;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            display: flex;
+            position: relative;
+            top: -100px;
+        }
+
+        .bottomBox {
+            background: #F7EC7D;
+            height: 100px;
+            width: 110px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+    </style>
+</body>
+
+</html>

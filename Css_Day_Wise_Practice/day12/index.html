@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        background-color: #F5D6B4;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .cricleCommon {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .circle1,.circle3 {
+        border: #D86F45 solid 18px;
+        border-radius: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        transform: rotate(-45deg)
+    }
+
+    .circle2 {
+        border: #D86F45 solid 18px;
+        border-radius: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        transform: rotate(135deg);
+        position: relative;
+        top: 0px;
+    }
+    .circle1 {
+        position: relative;
+        left: 18px;
+    }
+
+    .circle3 {
+        position: relative;
+        right: 18px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="cricleCommon circle1"></div>
+        <div class="cricleCommon circle2"></div>
+        <div class="cricleCommon circle3"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+    background-color: #0B2429;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.childThing {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    margin-left: 75px;
+}
+
+#firstThing {
+    background-color: #1A4341;
+    border-top-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+    left: -5px;
+}
+
+#secondThing {
+    background-color: #998235;
+    border-top-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+    left: 40px;
+}
+
+#thirdThing {
+    background-color: #F3AC3C;
+    border-top-left-radius: 65%;
+    border-bottom-right-radius: 65%;
+}

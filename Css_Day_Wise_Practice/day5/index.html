@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="firstThing"></div>
+        <div class="secondThing"></div>
+        <div class="thirdThing"></div>
+    </section>
+
+    <style>
+        body {
+            background: #0B2429;
+            display: block;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .firstThing {
+            background: #998235;
+            height: 120px;
+            width: 120px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-left-radius: 60px;
+            position: relative;
+            left: 15px;
+            bottom: 15px;
+        }
+
+        .secondThing {
+            background: #F3AC3C;
+            height: 120px;
+            width: 120px;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+            border-top-left-radius: 60px;
+            position: absolute;
+            left: 88px;
+            bottom: 34px;
+        }
+
+        .thirdThing {
+            background: #F3AC3C;
+            position: absolute;
+            left: 218px;
+            bottom: 161px;
+            height: 120px;
+            width: 120px;
+            border-radius: 60px;
+            z-index: -1;
+        }
+    </style>
+</body>
+
+</html>

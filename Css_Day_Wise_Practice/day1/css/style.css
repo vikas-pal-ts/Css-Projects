@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #666666;
+    line-height: 1.4;
+}
+
+.container {
+    width: 1200px;
+    background: #f9f9f9;
+    margin: 0 auto;
+}
+
+#header {
+    height: 80px;
+    border-bottom: 1px solid #666666;
+}
+
+#header nav ul li {
+    float: left;
+    height: 40px;
+    padding-top: 4px;
+    color: #666666;;
+    padding-left: 5px;
+    margin-right: 35px;
+    margin-left: 35px;
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+#header nav ul li.divline {
+    border-right: thin solid gray;
+    height: 8px;
+    padding: 0;
+    margin: 26px 0 0;
+}
+
+.mainNav {
+  padding-top: 15px;
+  margin-left: 144px;
+}
+
+#leftside {
+    float: left;
+}
+
+#rightside {
+    float: right;
+}
+
+#page-content {
+    padding: 10px 0;
+}
+
+#main {
+    margin-top: 70px;
+    font-size: 12px;
+}
+
+#mainLeft {
+    width: 280px;
+    font-size: 16px;
+    float: left;
+}
+
+#mainRight {
+    float: right;
+    position: relative;
+    top: -23px;
+}
+
+#footerImg {
+    height: 92px;
+    background: url(../img/home/footer.gif) no-repeat center;
+}
+
+#footerSection {
+    color: #666666;
+    font-size: 11px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.clearFloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0%;
+        background-color: #F2F2B6;
+    }
+
+    .container,.rightSideTriangle, .leftSideTriangle {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rightSideTriangle {
+        margin-bottom: 54px;
+    }
+
+    .correctTriangle {
+        width: 139px;
+        height: 127px;
+        clip-path: polygon( 50% 0, 100% 100%, 0 100% );
+    }
+
+    .correctTriangle1 {
+        background-color: #FF6D00;
+        transform: rotate(60deg);
+        position: relative;
+        left: 53px;
+    }
+
+    .correctTriangle2 {
+        position: absolute;
+        right: 130px;
+        background-color: #FD4602;
+        z-index: -1;
+        transform: rotate(60deg);
+    }
+    .reverseTriangle1 {
+        background-color:#FD4602;
+        
+    }
+    .reverseTriangle2 {
+        position: absolute;
+        background-color:#FF6D00;
+        z-index: -1;
+        right: 43px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="rightSideTriangle">
+            <div class="correctTriangle correctTriangle1"></div>
+            <div class="correctTriangle correctTriangle2"></div>    
+        </div>
+
+        <div class="leftSideTriangle">
+        <div class="correctTriangle reverseTriangle1"></div>
+        <div class="correctTriangle reverseTriangle2"></div>
+        </div>
+    </div>
+</body>
+</html>

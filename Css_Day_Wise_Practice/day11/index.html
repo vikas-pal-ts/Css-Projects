@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    margin: 0%;
+    background-color: #191210;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bigCircle {
+    background-color: #ECA03D;
+    border-radius: 50%;
+    width: 35%;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallCircle {
+    background-color: #191210;
+    border-radius: 50%;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallCircle2 {
+    background-color: #84271C;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.leftHandle {
+    width: 50px;
+    height: 50px;
+    border: 22px solid #ECA03D;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(134deg);
+    position: relative;
+    left: 22px;
+}
+
+.rightHandle {
+    width: 50px;
+    height: 50px;
+    border: 22px solid #ECA03D;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-40deg);
+    position: relative;
+    left: -22px;
+}
+
+</style>
+<body>
+    <div class="container"> 
+        <div class="leftHandle"></div>
+        <div class="bigCircle">
+            <div class="smallCircle">
+                <div class="smallCircle2"></div>
+            </div>
+        </div>
+        <div class="rightHandle"></div>     
+    </div>
+    
+</body>
+</html>

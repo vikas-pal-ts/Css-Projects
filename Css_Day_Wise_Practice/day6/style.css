@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E3516E;
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circleContainer {
+    height: 65%;
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circlePart {
+    height: 50%;
+    width: 50%;
+}
+
+#part1 {
+    background-color:#51B5A9;
+    border-top-left-radius: 100%;
+}
+
+#part2 {
+    background-color: #F7F3D7;
+    border-bottom-left-radius: 100%;
+}
+
+#part3 {
+    background-color: #FADE8B;
+    background-color: #FADE8B;
+    float: right;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    border-top-right-radius: 100%;
+}
