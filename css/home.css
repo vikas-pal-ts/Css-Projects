@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.mainTopBar {
+    border-bottom: 1px solid #ecedef;
+    padding-top: 3px;
+    padding-bottom: 0.4rem;
+}
+
+.topHeaderIcon {
+    width: 27px;
+    height: 27px;
+    font-size: 27px;
+}
+
+.userActions {
+    display: flex;
+}
+
+.mainNavUl {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.customNav a {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    padding-right: 24px;
+    height: 25px;
+    cursor: pointer;
+    color: #44475b;
+    -webkit-font-smoothing: auto;
+}
+
+.customNav a.active {
+    color: #00d09c;
+    border-bottom: 3px solid #00d09c;
+}
+
+.customNav a:last-child {
+    padding-right: 0px;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mainNavBar {
+    border-bottom: 1px solid #ecedef;
+    padding-top: 22px;
+    padding-bottom: 0rem;
+}
+
+.customNav {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.cardHeadingSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indicesTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #44475b;
+}
+
+.indicesBtn button {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .37px;
+    color: #00d09c;
+    background-color: #e5faf5;
+    border: none;
+    border-radius: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.customCard {
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.1);
+    background: #fff;
+    min-width: 140px;
+    position: relative;
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 10px 0 10px 15px;
+}
+
+.cardTitle{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.57;
+    min-height: 25px;
+    letter-spacing: .19px;
+    color: #44475b;
+    margin-right: 8px;
+}
+
+.exchangeText {
+    opacity: .5;
+    padding-bottom: 12px;
+}
+
+.stockPriceSection{
+    margin-top: 10px;
+}
+
+.currentStockPrice{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    color: #44475b;
+    margin-right: 7px;
+    margin-bottom: 10px;
+}
+
+.todayIncreament{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #00d09c;
+}
+
+.cardMain {
+    flex-wrap: unset;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    justify-content: space-between;
+}
